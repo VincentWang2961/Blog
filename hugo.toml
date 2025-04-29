@@ -1,4 +1,4 @@
 baseURL = 'https://blog.fishtouching.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "crux"
+theme = "hugo-Crux"

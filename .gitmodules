@@ -1,0 +1,3 @@
+[submodule "themes/hugo-Crux"]
+	path = themes/hugo-Crux
+	url = https://github.com/VincentWang2961/hugo-Crux
