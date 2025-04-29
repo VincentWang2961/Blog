@@ -1,3 +1,4 @@
+# Congif file for GitHub Actions to deploy a Hugo site to GitHub Pages
 name: Deploy Hugo site to GitHub Pages
 
 on:
