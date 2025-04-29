@@ -5,3 +5,5 @@ title = 'Hello World'
 +++
 
 Hi there! Here is my first post of my blog.
+
+Hello Netlify!
