@@ -52,3 +52,32 @@ a {
     background-color: #007bff; /* Example primary color, adjust as needed */
     color: white;
 }
+
+/* ===== Footer Styles ===== */
+.site-footer {
+  border-top: 1px solid #eee; /* Lighter border */
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666; /* Lighter text color */
+}
+
+.site-footer .container {
+  max-width: 768px; /* Match body max-width */
+  margin: 0 auto; /* Center container */
+  padding: 0 1rem; /* Add padding */
+}
+
+.site-footer p {
+  margin: 0.25rem 0; /* Reduce vertical margin */
+}
+
+.site-footer a {
+  color: #007bff; /* Example link color, adjust as needed */
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
