@@ -20,3 +20,35 @@ a {
   color: #00e;
   text-decoration: none;
 }
+
+/* ===== BACK TO TOP BUTTON ===== */
+.back-to-top {
+    position: fixed;
+    bottom: -60px; /* Start hidden below the viewport */
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff; /* Default background, consider using CSS variables if your theme has them */
+    color: #222; /* Default text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Default shadow */
+    transition: all 0.3s ease; /* Simplified transition */
+    opacity: 0;
+    z-index: 998;
+    border: 1px solid #ccc; /* Optional: add a border */
+}
+
+.back-to-top.visible {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.back-to-top:hover {
+    transform: scale(1.15);
+    background-color: #007bff; /* Example primary color, adjust as needed */
+    color: white;
+}
